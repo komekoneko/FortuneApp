@@ -9,7 +9,7 @@ function App() {
 
 
   const fortuneFn = () => {
-    if (input == "") {
+    if (input === "" && birthday === '') {
       return alert("何か入力してください");
     }
   };
